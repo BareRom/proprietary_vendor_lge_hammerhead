@@ -97,6 +97,11 @@ PRODUCT_COPY_FILES := \
     vendor/qcom/hammerhead/proprietary/venus.b03:system/vendor/firmware/venus.b03:qcom \
     vendor/qcom/hammerhead/proprietary/venus.b04:system/vendor/firmware/venus.b04:qcom \
     vendor/qcom/hammerhead/proprietary/venus.mdt:system/vendor/firmware/venus.mdt:qcom \
+    vendor/qcom/hammerhead/proprietary/widevine.b00:system/vendor/firmware/widevine.b00:qcom \
+    vendor/qcom/hammerhead/proprietary/widevine.b01:system/vendor/firmware/widevine.b01:qcom \
+    vendor/qcom/hammerhead/proprietary/widevine.b02:system/vendor/firmware/widevine.b02:qcom \
+    vendor/qcom/hammerhead/proprietary/widevine.b03:system/vendor/firmware/widevine.b03:qcom \
+    vendor/qcom/hammerhead/proprietary/widevine.mdt:system/vendor/firmware/widevine.mdt:qcom \
     vendor/qcom/hammerhead/proprietary/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so:qcom \
     vendor/qcom/hammerhead/proprietary/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so:qcom \
     vendor/qcom/hammerhead/proprietary/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so:qcom \
