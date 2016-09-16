@@ -97,11 +97,6 @@ PRODUCT_COPY_FILES := \
     vendor/qcom/hammerhead/proprietary/venus.b03:system/vendor/firmware/venus.b03:qcom \
     vendor/qcom/hammerhead/proprietary/venus.b04:system/vendor/firmware/venus.b04:qcom \
     vendor/qcom/hammerhead/proprietary/venus.mdt:system/vendor/firmware/venus.mdt:qcom \
-    vendor/qcom/hammerhead/proprietary/widevine.b00:system/vendor/firmware/widevine.b00:qcom \
-    vendor/qcom/hammerhead/proprietary/widevine.b01:system/vendor/firmware/widevine.b01:qcom \
-    vendor/qcom/hammerhead/proprietary/widevine.b02:system/vendor/firmware/widevine.b02:qcom \
-    vendor/qcom/hammerhead/proprietary/widevine.b03:system/vendor/firmware/widevine.b03:qcom \
-    vendor/qcom/hammerhead/proprietary/widevine.mdt:system/vendor/firmware/widevine.mdt:qcom \
     vendor/qcom/hammerhead/proprietary/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so:qcom \
     vendor/qcom/hammerhead/proprietary/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so:qcom \
     vendor/qcom/hammerhead/proprietary/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so:qcom \
@@ -122,6 +117,7 @@ PRODUCT_COPY_FILES := \
     vendor/qcom/hammerhead/proprietary/libconfigdb.so:system/vendor/lib/libconfigdb.so:qcom \
     vendor/qcom/hammerhead/proprietary/libdiag.so:system/vendor/lib/libdiag.so:qcom \
     vendor/qcom/hammerhead/proprietary/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so:qcom \
+    vendor/qcom/hammerhead/proprietary/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so:qcom \
     vendor/qcom/hammerhead/proprietary/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so:qcom \
     vendor/qcom/hammerhead/proprietary/libdsutils.so:system/vendor/lib/libdsutils.so:qcom \
     vendor/qcom/hammerhead/proprietary/libFuzzmmstillomxenc.so:system/vendor/lib/libFuzzmmstillomxenc.so:qcom \
@@ -179,4 +175,12 @@ PRODUCT_COPY_FILES := \
     vendor/qcom/hammerhead/proprietary/libthermalioctl.so:system/vendor/lib/libthermalioctl.so:qcom \
     vendor/qcom/hammerhead/proprietary/libtime_genoff.so:system/vendor/lib/libtime_genoff.so:qcom \
     vendor/qcom/hammerhead/proprietary/libTimeService.so:system/vendor/lib/libTimeService.so:qcom \
+    vendor/qcom/hammerhead/proprietary/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so:qcom \
+    vendor/qcom/hammerhead/proprietary/libwvm.so:system/vendor/lib/libwvm.so:qcom \
+    vendor/qcom/hammerhead/proprietary/libWVphoneAPI.so:system/vendor/lib/libWVphoneAPI.so:qcom \
+    vendor/qcom/hammerhead/proprietary/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so:qcom \
+    vendor/qcom/hammerhead/proprietary/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so:qcom \
+    vendor/qcom/hammerhead/proprietary/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so:qcom \
+    vendor/qcom/hammerhead/proprietary/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so:qcom \
+    vendor/qcom/hammerhead/proprietary/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so:qcom \
 
